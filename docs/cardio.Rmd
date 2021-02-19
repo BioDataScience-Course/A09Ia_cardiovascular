@@ -1,0 +1,70 @@
+---
+title: "Maladies cardio-vasculaires"
+author: "___"
+date: "__/__/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+<!--- Consignes.
+Proposez une courte introduction de 5 à 10 lignes de l'effet de l'obésité sur les maladies cardio-vasculaires
+--->
+
+# Analyses
+
+<!--- Consignes
+Importez les données mises à votre disposition dans le dossier data.
+--->
+
+```{r import}
+
+```
+
+<!--- Notes
+Ces données sont issues d'un jeu de données public dont le lien est le suivant : <https://www.kaggle.com/sulianova/cardiovascular-disease-dataset>
+Vous trouverez des informations complémentaires sur les données. 
+--->
+
+<!--- Consignes
+Comme vous le savez, il est utile de calculer des métriques afin de proposer une information plus intéressante. Calculer l'indice de masse corporelle.
+--->
+
+```{r imc}
+
+```
+
+<!--- Consignes
+Proposez des boites de dispersion afin de visualiser l'imc en fonction de la présence ou de l'absence d'une maladie cardio-casculaire
+--->
+
+```{r imc_graph}
+
+```
+
+<!--- Consignes
+Décrivez ce graphique en 5 à 10 phrases. Utilisez des valeurs chiffrées pour détailler votre description.
+--->
+
+<!--- Consignes
+Déterminez  si l'imc diffère entre les personnes atteintes de maladies cardio-vasculaires ou non.
+
+Formulez l'hypothèse nulle et l'hypothèse alternative
+--->
+
+
+<!--- Consignes
+Réalisez un test d'hypothèse approriépour répondre à la question citée précédement.
+--->
+
+```{r ttest}
+
+```
+
+<!--- Consignes
+Interprétez votre test en maximum 5 phrases. L'interpétation d'un test doit comprendre une partie biologique et une partie statistique.
+--->
