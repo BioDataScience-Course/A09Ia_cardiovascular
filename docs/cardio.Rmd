@@ -1,5 +1,5 @@
 ---
-title: "Maladies cardio-vasculaires"
+title: "Maladies cardiovasculaires"
 author: "___"
 date: "__/__/2021"
 output: html_document
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Introduction
 
 <!--- Consignes.
-Proposez une courte introduction de 5 à 10 lignes de l'effet de l'obésité sur les maladies cardio-vasculaires
+Proposez une courte introduction de 5 à 10 lignes de l'effet de l'obésité sur les maladies cardiovasculaires
 --->
 
 # Analyses
@@ -39,7 +39,7 @@ Comme vous le savez, il est utile de calculer des métriques afin de proposer un
 ```
 
 <!--- Consignes
-Proposez des boites de dispersion afin de visualiser l'imc en fonction de la présence ou de l'absence d'une maladie cardio-casculaire
+Proposez des boites de dispersion afin de visualiser l'imc en fonction de la présence ou de l'absence d'une maladie cardiocasculaire
 --->
 
 ```{r imc_graph}
@@ -51,14 +51,14 @@ Décrivez ce graphique en 5 à 10 phrases. Utilisez des valeurs chiffrées pour 
 --->
 
 <!--- Consignes
-Déterminez  si l'imc diffère entre les personnes atteintes de maladies cardio-vasculaires ou non.
+Déterminez  si l'imc diffère entre les personnes atteintes de maladies cardiovasculaires ou non.
 
 Formulez l'hypothèse nulle et l'hypothèse alternative
 --->
 
 
 <!--- Consignes
-Réalisez un test d'hypothèse approriépour répondre à la question citée précédement.
+Réalisez un test d'hypothèse approprié pour répondre à la question citée précédemment.
 --->
 
 ```{r ttest}
@@ -66,5 +66,5 @@ Réalisez un test d'hypothèse approriépour répondre à la question citée pr�
 ```
 
 <!--- Consignes
-Interprétez votre test en maximum 5 phrases. L'interpétation d'un test doit comprendre une partie biologique et une partie statistique.
+Interprétez votre test en maximum 5 phrases. L'interprétation d'un test doit comprendre une partie biologique et une partie statistique.
 --->

@@ -16,6 +16,6 @@ Ce projet est individuel et cadré. Il doit être terminé pour la fin du module
 
 # Consignes
 
-Complétez le document `cardio.Rmd` qui se trouve dans le dossier `docs/`. Ce document s'intéresse à la présence de maladie cardiovasculaire chez des patients.
+Complétez le document `cardio.Rmd` qui se trouve dans le dossier `docs/`. Ce document s'intéresse à la présence de maladies cardiovasculaires chez des patients.
 
 N'oubliez pas que **le plagiat est interdit** mais que la collaboration est encouragée.
