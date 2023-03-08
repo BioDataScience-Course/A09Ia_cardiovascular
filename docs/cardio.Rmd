@@ -1,5 +1,5 @@
 ---
-title: "Maladies cardiovasculaires"
+title: "___"
 author: "___"
 date: "___"
 output: html_document
@@ -10,13 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 SciViews::R
 ```
 
-
 # Introduction
 
-<!--% Écrivez une courte introduction de 2 à 4 phrases à propos de la relation entre obésité et maladies cardiovasculaires -->
-
-<!--# Ces données sont issues d'un jeu de données public dont le lien est le suivant : <https://www.kaggle.com/sulianova/cardiovascular-disease-dataset>. Vous trouverez des informations complémentaires sur les données. -->
-
+<!--% Écrivez une courte introduction de 2 à 4 phrases à propos de la relation entre obésité et maladies cardiovasculaires. N'hésitez pas à consulter les informations associées aux données. -->
 
 # Analyses
 
@@ -26,10 +22,9 @@ SciViews::R
 
 ```
 
-
 ## Exploration des données
 
-<!--% Comme vous le savez, il est utile de calculer des métriques qui quantifient au mieux ce que l'on étudie. Calculer donc ici l'indice de masse corporelle pour ces patients. -->
+<!--% Comme vous le savez, il est utile de calculer des métriques qui quantifient au mieux ce que l'on étudie. Calculez donc l'indice de masse corporelle pour ces patients. -->
 
 ```{r imc}
 
@@ -43,16 +38,11 @@ SciViews::R
 
 <!--% Interprétez ce graphique ci-dessous en 2 à 5 phrases. Utilisez des valeurs chiffrées pour préciser vos observations. -->
 
-
 ## Test d'hypothèse
 
-<!--% Vous allez déterminer  si l'imc diffère entre les personnes atteintes de maladies cardiovasculaires ou non. Commencez par formuler précisément l'hypothèse nulle et l'hypothèse alternative ci-dessous. -->
+<!--% Déterminez si l'imc diffère entre les personnes atteintes de maladies cardiovasculaires ou non. Formulez précisément l'hypothèse nulle et l'hypothèse alternative ci-dessous. -->
 
-
-### Conditions de validité
-
-<!--% Discutez ensuite des conditions d'application du test choisi par rapport à vos données en 3 à 5 phrases. Peut-on utiliser ce test dans le cas présent et pourquoi ? -->
-
+<!--% Discutez ensuite des conditions d'application du test choisi par rapport à vos données en 3 à 5 phrases ci-dessous. Peut-on utiliser ce test dans le cas présent et pourquoi ? -->
 
 <!--% Réalisez un test d'hypothèse approprié pour répondre à la question. -->
 
@@ -61,4 +51,3 @@ SciViews::R
 ```
 
 <!--% Interprétez votre test en maximum 5 phrases. Interprétez votre test d'abord sur le plan statistique. Ensuite, tirez des conclusions sur le plan biologique à partir de vos résultats. -->
-

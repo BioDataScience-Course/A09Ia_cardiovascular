@@ -1,19 +1,18 @@
-# Note: le jeu de données `data/cardio.rds` est déjà créé pour vous. Vous ne
-# devez pas exécuter ce script. Cependant, nous le laissons ici pour que vous
-# puissiez voir comment le jeu de données brut a été retravaillé
+# Remaniement des données brutes sur les maladies cardiovasculaires.
+# Date : 8 mars 2023
+## Note: Le jeu de données `data/cardio.rds` est déjà créé pour vous.
+## Vous ne devez pas exécuter ce script. Cependant, nous le laissons ici afin
+## que vous puissiez voir comment le jeu de données brut a été retravaillé.
 
-# Packages
+# Packages utiles ----
 SciViews::R
 
-# Importation des données
-cardiovascular <- read("data/raw/cardiovascular.csv")
+# Importation des données brutes ----
+cardiovascular <- read("data/raw/cardiovascular.csv.xz")
 
-str(cardiovascular)
-summary(cardiovascular)
-
-
+# Vérification du type des variables, Ajouts des labels et unités ----
 cardiovascular %>.%
-  mutate(., # Variables dans des formats corrects
+  smutate(., # Variables dans des formats corrects
     height      = height / 100,
     gender      = factor(gender, levels = c(1, 2),
       labels = c("woman", "man")),
@@ -44,4 +43,17 @@ cardiovascular %>.%
 
 summary(cardio)
 
+# Sélection aléatoire de 10 000 individus atteint ou non de maladie cardio-vasculaire. ----
+set.seed(992)
+
+cardio %>.%
+  group_by(., cardio, gender) |> slice_sample(n = 5000) %->%
+  cardio
+
+table(cardio$gender, cardio$cardio)
+
+# Sauvegarde du tableau ----
 write$rds(cardio, "data/cardio.rds", compress = "xz")
+
+# Nettoyage de l'environnement global ----
+rm(cardiovascular, cardio)

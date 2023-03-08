@@ -1,23 +1,25 @@
 # Maladies cardiovasculaires
 
-## Avant-propos
+Les maladies cardiovasculaires et l'obésité sont deux problèmes de santé majeurs qui sont étroitement liés. L'obésité, qui se caractérise par un excès de graisse corporelle, est un facteur de risque important pour le développement de maladies cardiovasculaires telles que l'hypertension artérielle, l'athérosclérose, l'insuffisance cardiaque et l'accident vasculaire cérébral. Cette relation est complexe et peut être influencée par différents facteurs tels que l'âge, le sexe, l'activité physique et le régime alimentaire. Les recherches dans ce domaine visent à mieux comprendre les mécanismes sous-jacents de cette relation afin de développer des stratégies de prévention et de traitement plus efficaces pour ces maladies.
 
-Les consignes reprises dans ce document, ainsi que dans les différents fichiers sont susceptibles d'évoluer. N'hésitez pas à vérifier le lien suivant afin de voir si des modifications n'y ont pas été apportées : <https://github.com/BioDataScience-Course/A09Ia_cardiovascular>.
+# Présentation des données
 
-Avant d'aborder ce projet, assurez-vous d'avoir bien compris le contenu du module [9](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2021/moyenne.html) du cours de SDD I.
+Les données employées sont un sous-ensemble d'un tableau de données nommées `cardio_train.csv` qui contient 70.000 observations. Ces données ont été mises à disposition sur le site Kaggle sous le nom [*Cardiovascular Disease dataset*](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset) par Svetlana Ulianova. Aucunes précisions sur les auteurs et la licence n'est disponible. Des métadonnées sont néanmoins mises à disposition.
 
 # Objectifs
 
-Ce projet est individuel et cadré. Il doit être terminé pour la fin du module 9. Ce dernier permettra de démontrer que vous avez acquis les compétences suivantes :
+Ce projet est individuel et cadré. Ce dernier permet de démontrer que vous avez acquis les compétences suivantes :
 
-- être capable de formuler les hypothèses d'un test *t* de Student
-- pouvoir réaliser un test *t* de Student sur des données biologiques
-- maîtriser la décription et l'interprétation d'un test *t* de Student.
+-   être capable de formuler les hypothèses d'un test *t* de Student
+-   pouvoir réaliser un test *t* de Student sur des données biologiques
+-   maîtriser la description et l'interprétation d'un test *t* de Student.
 
 # Consignes
 
 Complétez le document `cardio.Rmd` qui se trouve dans le sous-dossier `docs/`. Vous vous intéresserez aux maladies cardiovasculaires chez des patients.
 
-N'oubliez pas que **le plagiat est interdit** mais que la collaboration est encouragée. Cela signifie que vous pouvez vous **expliquer** la matière les uns les autres. Mais vous ne pouvez pas simplement copier-coller du code ou des interprétations venant d'un autre projet, que ce soit de cette année-ci ou des années antérieures. S'il y a des erreurs dans ce copier-coller elles nous permettront facilement de démasquer votre plagiat... et donc, cela n'est pas une bonne idée. Les fautifs (celui qui a donné et celui qui a reçu) seront tous deux pénalisés de manière égale. Comme vos projets GitHub sont privés personne, à part vos enseignants, n'ont accès à vos contributions. Si vous donnez vos réponses à d'autres, vous vous exposez donc à des sanctions. Pour rappel, ce travail est **individuel** et nous allons commencer à être plus stricts face aux dérives.
+Un script R est proposé dans ce projet. Il ne doit pas être exécuté. Il est cependant intéressant de le consulter afin d'observer le travail réalisé pour passer des données brutes à un sous tableau pertinent.
 
-Assurez-vous aussi que le document R Markdown compile bien en un rapport HTML (bouton 'Knit') lorsque vous avez terminé. Corrigez les erreurs éventuelles qui apparaissent lors de cette compilation avant soumission finale de votre travail.
+N'oubliez pas de "knitter" le document en HTML à la fin du travail pour vérifier que tout fonctionne bien, et corrigez les erreurs éventuelles rencontrées à ce stade avant de clôturer votre travail. Vérifiez également que votre dernier commit a bien été pushé sur GitHub avant la deadline.
+
+Ce projet correspond au template <https://github.com/BioDataScience-Course/A09Ia_cardiovascular>
