@@ -1,6 +1,6 @@
 # Maladies cardiovasculaires
 
-Les maladies cardiovasculaires et l'obésité sont deux problèmes de santé majeurs qui sont étroitement liés. L'obésité, qui se caractérise par un excès de graisse corporelle, est un facteur de risque important pour le développement de maladies cardiovasculaires telles que l'hypertension artérielle, l'athérosclérose, l'insuffisance cardiaque et l'accident vasculaire cérébral. Cette relation est complexe et peut être influencée par différents facteurs tels que l'âge, le sexe, l'activité physique et le régime alimentaire. Les recherches dans ce domaine visent à mieux comprendre les mécanismes sous-jacents de cette relation afin de développer des stratégies de prévention et de traitement plus efficaces pour ces maladies.
+Les maladies cardiovasculaires et l'obésité sont deux problèmes de santé majeurs qui sont étroitement liés. L'obésité, qui se caractérise par un excès de graisse corporelle, est un facteur de risque important pour le développement de maladies cardiovasculaires telles que l'hypertension artérielle, l'arthérosclérose, l'insuffisance cardiaque et l'accident vasculaire cérébral. Cette relation est complexe et peut être influencée par différents facteurs tels que l'âge, le sexe, l'activité physique et le régime alimentaire. Les recherches dans ce domaine visent à mieux comprendre les mécanismes sous-jacents de cette relation afin de développer des stratégies de prévention et de traitement plus efficaces pour ces maladies.
 
 # Présentation des données
 
